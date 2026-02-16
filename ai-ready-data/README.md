@@ -2,7 +2,7 @@
 
 ## Resumen Ejecutivo
 
-Este proyecto consolidó fuentes de datos empresariales que antes operaban de forma independiente (ERP, CRM, eCommerce, POS y soporte) en una plataforma única para analítica e IA. La solución se implementó con arquitectura cloud, pipelines gobernados y enfoque IaC en tres ambientes (`dev`, `qa`, `prod`), permitiendo acelerar decisiones de negocio y mejorar la confiabilidad del dato.
+Este proyecto consolidó fuentes de datos empresariales que antes operaban de forma independiente (ERP, CRM, eCommerce, POS y soporte) en una plataforma única para analítica e IA. La solución se implementó con arquitectura cloud, pipelines gobernados y enfoque IaC en tres ambientes (`dev`, `qa`, `prod`), permitiendo acelerar decisiones de negocio y mejorar la confiabilidad del dato. El proyecto completo duró 3 años y 7 meses debido a la gran cantidad de iniciativas y fuentes de información que se fueron añadiendo al proyecto. También se hicieron actividades de adopción debido a los cambios de cultura organizacional y entendimiento de como funcionarían los nuevos procesos.
 
 Como resultado de la implementación:
 - **Tiempo a insight**: `-45%`
@@ -10,6 +10,9 @@ Como resultado de la implementación:
 - **Casos de IA habilitados**: `+3`
 
 **Nota de seguridad de la información:** este documento describe arquitectura, procesos y resultados de forma referencial; **no publica datos sensibles, personales ni confidenciales**, en cumplimiento de las políticas de seguridad de la información de la organización.
+
+**Nota acerca de los proyectos implementados:**
+Cada uno de los proyectos que nosotros implementamos lo hacemos a la medida de cada cliente. Es importante conocer que no todos los proyectos van a la misma velocidad ni duran el mismo tiempo y se debe tener en cuenta el estado actual de los datos de la empresa a trabajar.
 
 ## 1) Contexto del proyecto (caso real)
 
@@ -118,3 +121,5 @@ Indicadores obtenidos después de la implementación:
 - Plataforma de datos unificada para analítica empresarial.
 - Pipelines productivos con gobierno y calidad automatizada.
 - Base técnica para escalar iniciativas de IA de forma segura y medible.
+
+![Arquitectura AI-Ready Data](./ai-ready-data.png)
